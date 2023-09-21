@@ -1,12 +1,15 @@
 # include <stdio.h>
 
 int main(void) {
-    char c;
+    float a;
+    float b;
     
-    printf("enter a character: ");
-    scanf("%c", &c);
+    printf("enter a number (a) : "); 
+    scanf("%d", &a);
+    printf("enter another number (b) : ");
+    scanf("%d", &b);
     
-    printf("the next character of %c (%d) is %c (%d)\n", c, c, c+1, c+1);
+    printf("the result of division (a/b) is %f\n", a/b);
     
     system("PAUSE");
     return 0;
